@@ -66,11 +66,11 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sattvatest',
-        'HOST': 'sattvatest.cd0qso8ausl8.us-east-1.rds.amazonaws.com',
+        'NAME': 'sattva',
+        'HOST': 'sattva.cd0qso8ausl8.us-east-1.rds.amazonaws.com',
         'USER': 'shardul',
         'PASSWORD': 'Mgail3506',
-        'PORT': '3306',
+        'PORT': '5432',
         'OPTIONS': {
             'ssl': {'verify_cert': False},
         },
