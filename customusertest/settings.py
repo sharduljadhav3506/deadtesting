@@ -65,14 +65,14 @@ DATABASES = {
 """
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'sattva',
         'HOST': 'sattva.cd0qso8ausl8.us-east-1.rds.amazonaws.com',
         'USER': 'shardul',
         'PASSWORD': 'Mgail3506',
         'PORT': '5432',
         'OPTIONS': {
-            'ssl': {'verify_cert': False},
+            #'ssl': {'verify_cert': False},
         },
     },
 }
